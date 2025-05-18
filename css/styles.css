@@ -112,7 +112,7 @@ color: #F9690E;
   border-bottom: 1px solid #eee;
   margin-bottom: 15px;
   position: relative;
-  color: #3B8838;
+  color: #e22989;
 }
 .column-title:after {
   content: " ";
@@ -417,6 +417,9 @@ padding-top: 10px;
   background: #FFFFFF;
   background: url('../images/img4.jpg');
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #portfolio .portfolio-filter {
   list-style: none;
@@ -567,13 +570,11 @@ margin-bottom: 15px;
   background: #222222;
   background-size: cover;
   padding: 100px 0;
-  color: #3B8838;
-  background: url('../images/img2.jpg');
+  color: #e22989;
+  background: url('../images/img4.jpg');
   background-size: cover;
 }
-#testimonial h2{
-color: #3B8838;
-}
+
 #testimonial h4 {
   color: #fff;
   margin-bottom: 8px;
@@ -596,15 +597,15 @@ margin: 0 8px;
   /* background: #07080A; */
   /* background: url('../images/img2.jpg'); */    
   /* background-size: cover; */  };
-}
+
 #about .column-title{
 color:#fff;
 }
 #about p{
-color: #3B8837;
+color: #000000;
 }
 #about .listarrow li{
-color: #3B8838;
+color: #000000;
 }
 /*Team*/ 
 #our-team {
@@ -668,7 +669,7 @@ color: #3B8838;
 	font-size: 14px;
 	background: rgb(255, 255, 255);
 
-	color: #3B8837;
+	color: #000000;
 line-height: 22px;
 
 	border-radius: 5px;
@@ -691,8 +692,8 @@ line-height: 22px;
 .single-testimonial h5{
 	padding: 8px 0 0px;
 	font-size: 16px;
-	color: #3B8838;
-}
+	color: #e22989;
+} 
  
 .progress {
   -webkit-box-shadow: none;
@@ -950,4 +951,13 @@ margin: 9px auto;
 #portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
 padding: 7px 0 0;
 }
+}
+
+.btn-2{
+background-color: mediumvioletred; color: white; font-weight: 900; border-radius: 6px;
+}
+.btn-2:hover{
+  color: white;
+  font-size: 1.5rem;
+  transition: 0.4s ; 
 }
